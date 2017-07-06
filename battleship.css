@@ -1,0 +1,92 @@
+@font-face {
+	font-family:"Napalm";
+	src:url("./Dependencies/NAPAV___.eot?") format("eot"),
+	url("./Dependencies/NAPAV___.woff") format("woff"),
+	url("./Dependencies/NAPAV___.ttf") format("truetype"),
+	url("./Dependencies/NAPAV___.svg#NapalmVertigo") format("svg");
+	font-weight:lighter;
+	font-style:normal;
+}
+
+
+table, td{
+    border: 1px solid black;
+}
+
+td{
+	height:20px;
+	width: 20px;
+}
+
+.jumbotron {
+    padding: 0.01em 0.01em;
+}
+
+#settings{
+	font-size: 73%;
+}
+
+#header{
+	background-color: #2a5160;
+	text-align: center;
+	font-size: 50%;
+}
+
+#panel, #buttons, #map, #gset{
+	text-align: center;
+}
+
+#grid{
+	display: inline-block;
+}
+
+td[data_cell="miss"]{
+	background-color: green;
+}
+
+td[data_cell="p1OK"]{
+	background-color: black;
+}
+
+td[data_cell="p1Hit"]{
+	background-color: red;
+}
+
+td[data_cell="p2Hit"]{
+	background-color: orange;
+}
+
+td[data_cell="p2OK"]{
+	background-color: yellow;
+}
+
+td[data_cell="empty"]{
+	background-color: blue;
+}
+
+.button, .ship{
+	height: 35px;
+	width:150px;
+	border: 1px solid black;
+	margin-bottom:10px;
+}
+
+body{
+	color: white;
+	background-color: #7BAFD4;
+}
+
+#info{
+	width:346px;
+}
+
+button {
+	 font-size: 75%;
+	 width: 200px;	
+	 color: #fff;
+	 background-color: #6496c8;
+	 text-shadow: -1px 1px #417cb8;
+	 border: 1px solid black;
+	 font-family: 'Napalm', sans-serif;
+}
+
